@@ -15,7 +15,7 @@ input.onButtonPressed(Button.A, function () {
     basic.pause(5000)
     pins.digitalWritePin(DigitalPin.P1, 0)
     Rouge()
-    basic.pause(100)
+    basic.pause(1000)
     pins.digitalWritePin(DigitalPin.P2, 0)
     Blanc()
     basic.pause(15000)
